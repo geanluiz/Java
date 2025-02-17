@@ -1,7 +1,4 @@
-// package horadosistema;
-
 import java.util.Date;
-
 
 public class Hora {
 
