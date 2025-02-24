@@ -1,8 +1,10 @@
 public class Cards {
 
     public static void main(String[] args) {
-        Card card1 = new Card("Ace", "Spades");
-        System.out.println(card1.rank + " of " + card1.suit);
+        Card card1 = new Card("Acee", "Spades");
+        System.out.println(
+            (card1.checkCard() ? card1.rank + " of " + card1.suit : "Invalid rank and/or suit")
+        );
 
     }
 }
@@ -28,9 +30,12 @@ class Card{
                 }
             }
         }
+    }
 
-        if (rank == null | suit == null){
-            // handle error
+    public Boolean checkCard() {
+        if (this.rank == null | this.suit == null) {
+            return Boolean.FALSE;
         }
+        return Boolean.TRUE;
     }
 }
