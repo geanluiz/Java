@@ -37,7 +37,7 @@ class Carro {
 
 /*
  * public, disponivel a todo projeto
- * default, disponível dentro do mesmo package(pasta)
+ * protected, disponível dentro do package(pasta), classe e subclasses
+ * default, disponível dentro do mesmo package
  * private, somente dentro da mesma classe (não visível mesmo no mesmo arquivo)
- * protected, disponível dentro do package(pasta) ou arquivo
  */
