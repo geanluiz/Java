@@ -2,7 +2,7 @@ public class Class {
 
     public static void main(String[] args) {
 
-        // Cria nova isntância
+        // Cria nova instância
         Carro novoCarro1 = new Carro("Fusca");
 
         Carro novoCarro2 = new Carro("Gol");
@@ -36,7 +36,7 @@ class Carro {
 }
 
 /*
- * public, disponivel a todo projeto
+ * public, disponível a todo projeto
  * protected, disponível dentro do package(pasta), classe e subclasses
  * default, disponível dentro do mesmo package
  * private, somente dentro da mesma classe (não visível mesmo no mesmo arquivo)

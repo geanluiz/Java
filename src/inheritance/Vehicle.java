@@ -1,3 +1,5 @@
+package inheritance;
+
 public class Vehicle {
 
     Double speed = 0.0;
