@@ -3,7 +3,7 @@ package classes.cards;
 public class Cards {
 
     public static void main(String[] args) {
-        Card card1 = new Card("Acee", "Spades");
+        Card card1 = new Card("Ace", "Spades");
         System.out.println(
             (card1.checkCard() ? card1.rank + " of " + card1.suit : "Invalid rank and/or suit")
         );
