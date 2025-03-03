@@ -1,3 +1,5 @@
+package classes.cards;
+
 public class Cards {
 
     public static void main(String[] args) {
@@ -21,11 +23,12 @@ class Card{
 
     public Card(String rank, String suit) {
         for (String r : ranks) {
-            if (rank != null && r.toUpperCase().equals(rank.toUpperCase())) {
+            if (r.equalsIgnoreCase(rank)) {
                 for (String s : suits) {
-                    if (suit != null && s.toUpperCase().equals(suit.toUpperCase())) {
+                    if (s.equalsIgnoreCase(suit)) {
                         this.rank = rank;
                         this.suit = suit;
+                        break;
                     }
                 }
             }

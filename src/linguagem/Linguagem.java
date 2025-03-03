@@ -1,3 +1,5 @@
+package linguagem;
+
 import java.util.Locale;
 
 public class Linguagem {

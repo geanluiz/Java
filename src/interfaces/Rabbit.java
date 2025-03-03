@@ -1,3 +1,5 @@
+package interfaces;
+
 public class Rabbit implements Prey {
 
     @Override

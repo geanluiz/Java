@@ -1,4 +1,6 @@
-public class Main {
+package interfaces;
+
+public class interfacesMain {
     
     public static void main(String[] args) {
         Hawk hawk = new Hawk();

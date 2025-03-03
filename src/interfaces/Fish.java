@@ -1,3 +1,5 @@
+package interfaces;
+
 public class Fish implements Prey, Predator{
 
     @Override
