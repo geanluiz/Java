@@ -1,1 +1,1 @@
-Exercises I made while studying Java
+Exercises I made while studying Java syntax
