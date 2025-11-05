@@ -18,5 +18,7 @@ public class ExceptionHandling {
         catch (Exception e){
             System.out.println("Invalid number, try again!");
         }
+
+        sc.close();
     }
 }
