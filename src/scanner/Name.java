@@ -11,5 +11,8 @@ public class Name {
 
         String name = newScan.nextLine();
         System.out.println("Hello " + name + "!");
+        
+        newScan.close();
     }
+
 }
